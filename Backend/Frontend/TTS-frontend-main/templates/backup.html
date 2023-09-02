@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Microphone Input</title>
+</head>
+<body>
+    <h1>Microphone Input App</h1>
+    
+    <button id="startButton">Start Recording</button>
+    <button id="stopButton">Stop Recording</button>
+    
+    <audio id="audioPlayer" controls></audio>
+    
+    <script>
+        const startButton = document.getElementById('startButton');
+        const stopButton = document.getElementById('stopButton');
+        const audioPlayer = document.getElementById('audioPlayer');
+        let recordedChunks = [];
+
+        const handleSuccess = (stream) => {
+            const mediaRecorder = new MediaRecorder(stream);
+
+            mediaRecorder.ondataavailable = (event) => {
+                if (event.data.size > 0) {
+                    recordedChunks.push(event.data);
+                }
+            };
+
+            mediaRecorder.onstop = () => {
+                const audioBlob = new Blob(recordedChunks, { type: 'audio/wav' });
+                const audioUrl = URL.createObjectURL(audioBlob);
+                audioPlayer.src = audioUrl;
+            };
+
+            startButton.onclick = () => {
+                mediaRecorder.start();
+            };
+
+            stopButton.onclick = () => {
+                mediaRecorder.stop();
+            };
+        };
+
+        navigator.mediaDevices.getUserMedia({ audio: true }).then(handleSuccess);
+    </script>
+</body>
+</html>
