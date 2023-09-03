@@ -17,7 +17,7 @@ The repository is structured as follows:
 
 ## Purpose
 
-The purpose of this repository is to provide a collaborative space for development and improvement of the ATRONS platform. By making the repository publicly accessible, we aim to foster community engagement, allowing developers, contributors, and users to explore the codebase, report issues, and suggest enhancements.
+The purpose of this repository is to provide a collaborative space for development and improvement of the ATRONS  platform. By making the repository publicly accessible, we aim to foster community engagement, allowing developers, contributors, and users to explore the codebase, report issues, and suggest enhancements.
 
 ## How Generative AI Models are Solving the Problem
 
