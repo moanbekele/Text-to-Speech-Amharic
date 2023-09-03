@@ -12,7 +12,7 @@ Welcome to the ATRONS GitHub repository! ATRONS is an online resource sharing an
 The repository is structured as follows:
 
 - `backend/`: <a href="https://github.com/moanbekele/Text-to-Speech-Amharic/tree/main/main">Link for the Backend</a>
-- `frontend/`: Here, you will find the frontend code for the ATRONS platform, implemented using JavaScript, React, and Redux. This directory also includes the HTML, CSS, and JavaScript files for the user interface.
+- `frontend/`: Here, you will find the frontend code for the ATRONS platform, implemented using JavaScript, and Flask. This directory also includes the HTML, CSS, and JavaScript files for the user interface.
 - `models/`: This directory contains the trained Generative AI models used by ATRONS to enhance the platform's capabilities. The models are implemented using Python-based AI/ML libraries, and they play a crucial role in solving specific problems such as visual question answering (VQA).
 
 ## Purpose
