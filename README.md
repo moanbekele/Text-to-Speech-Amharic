@@ -5,31 +5,39 @@
 ![Latest commit](https://img.shields.io/github/last-commit/moanbekele/Text-to-Speech-Amharic/main?style=round-square)
 
 
-Welcome to the ATRONS GitHub repository! ATRONS is an online resource sharing and learning platform designed to provide users with a seamless experience for accessing and sharing educational resources. This repository contains the source code and development history of the ATRONS platform.
+Welcome to <a href="https://www.zemenu.org/">Zemenu's</a>  **Amharic | Text-to-speech** GitHub repository! 
+This repository contains the source code and development history of the **Amharic | Text-to-speech** platform.
 
 ## Structure
 
 The repository is structured as follows:
 
-- `backend/`: <a href="https://github.com/moanbekele/Text-to-Speech-Amharic/tree/main/Backend/KIYA">LInk for the Backend</a>
-- `frontend/`: Here, you will find the frontend code for the ATRONS platform, implemented using JavaScript, React, and Redux. This directory also includes the HTML, CSS, and JavaScript files for the user interface.
-- `models/`: This directory contains the trained Generative AI models used by ATRONS to enhance the platform's capabilities. The models are implemented using Python-based AI/ML libraries, and they play a crucial role in solving specific problems such as visual question answering (VQA).
+- <a href="https://github.com/moanbekele/Text-to-Speech-Amharic/tree/main/Backend/KIYA">backend/</a>  : Here You will find the backend code which includes the endpoint for the restful-API created by Flask, as well as libraries required for the **Text-to-speech** model to work as `Tensorflow`, `Pytorch` and such.
+
+- <a href="https://github.com/moanbekele/Text-to-Speech-Amharic/tree/main/Backend/KIYA">frontend/</a>: Here you will find the frontend code for the **Text-to-Speech** Project, implemented using `Flask` to render the frontend which uses `HTML`, `CSS`, and `JavaScript` files for the user interface.`
+
+- <a href="https://drive.google.com/file/d/1JqxdjuCUNUpH2Nv18Vlx5Z1RTJogSi69/view?usp=sharing">models/</a>: This directory contains the trained Generative AI models used by <a href="https://www.zemenu.org/">Zemenu's</a> team for the **Text-to-speech**. The model is implemented using Python-based AI/ML libraries such as `hifigan` to make the out from the model High Fidelity, and play a crucial roll by synthesizing the audio output.
 
 ## Purpose
 
-The purpose of this repository is to provide a collaborative space for development and improvement of the ATRONS platform. By making the repository publicly accessible, we aim to foster community engagement, allowing developers, contributors, and users to explore the codebase, report issues, and suggest enhancements.
+This **Text-to-speech** platform is designed for use cases such as generating an audio book from an amharic text book or making automated voice response for certain business by automizing repetative customer support services or for text to speech service for any peronal resons inluding entertaiment purposes.
 
 ## How Generative AI Models are Solving the Problem
 
-ATRONS leverages Generative AI models to enhance the platform's functionality, particularly in the domain of visual question answering (VQA). The chosen Generative AI models, such as the `dandelin/vilt-b32-finetuned-vqa` model, have been fine-tuned to process and interpret images containing questions from users. These models utilize cutting-edge techniques in computer vision and natural language processing to generate accurate and meaningful responses to user queries.
-
-By incorporating Generative AI models into ATRONS, we enable users to ask questions about visual content, such as diagrams, images, or screenshots, and receive relevant answers. This significantly enhances the learning experience, as users can obtain detailed explanations, insights, or clarifications about the resources they are interacting with. It opens up new possibilities for interactive and dynamic learning, making ATRONS a powerful platform for knowledge sharing and acquisition.
+ <a href="https://www.zemenu.org/">Zemenu's</a>  **Amharic | Text-to-speech** service leverages Generative AI model to create high quality text to speech in amharic for various use cases as listed in the purpose section above.The chosen Generative AI models, such as the <a href="https://drive.google.com/file/d/1JqxdjuCUNUpH2Nv18Vlx5Z1RTJogSi69/view?usp=sharing">Amharic_Text_to_speech_model</a>, have been fine-tuned to synthesize audio by receiving input from user. These models utilize cutting-edge techniques to make the audio output High Fidelity by using a `hifigan` model for the training 
 
 
-## Installation
-```
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python3 app.py
-```
+
+# Installiation 
+
+> ## PIP-Installation
+ -  `pip install -r requirements.txt` Install all pip dependencies 
+
+> ## Start Flask App
+ -  `python3 app.py` Run Flask app
+
+
+# Usage
+> ## URL's for Input and Output
+ - `http://127.0.0.1:5000` Html page which takes input from user and make a POST request to the backend to synthesize audio. 
+ - `http://127.0.0.1:5000/tts` Html page which outputs the synthesized audio. 
