@@ -17,10 +17,14 @@ The repository is structured as follows:
 - <a href="https://github.com/moanbekele/Text-to-Speech-Amharic/tree/main/Backend/KIYA">frontend/</a>: Here you will find the frontend code for the **Text-to-Speech** Project, implemented using `Flask` to render the frontend which uses `HTML`, `CSS`, and `JavaScript` files for the user interface.`
 
 - <a href="https://drive.google.com/file/d/1JqxdjuCUNUpH2Nv18Vlx5Z1RTJogSi69/view?usp=sharing">models/</a>: This directory contains the trained Generative AI models used by <a href="https://www.zemenu.org/">Zemenu's</a> team for the **Text-to-speech**. The model is implemented using Python-based AI/ML libraries such as `hifigan` to make the out from the model High Fidelity, and play a crucial roll by synthesizing the audio output.
-
-<img src="images/">
-<img src="images/">
-<img src="images/">
+<p float="left">
+<img src="images/photo_2023-09-03_11-06-56.jpg" width="500">
+<img src="images/photo_2023-09-03_11-09-57.jpg" width="500">
+<img src="images/photo_2023-09-03_11-10-04.jpg" width="500">
+<img src="images/photo_2023-09-03_11-10-09.jpg" width="500">
+</p>
+<br/>
+<br/>
 
 ## Purpose
 
