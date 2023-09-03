@@ -18,6 +18,10 @@ The repository is structured as follows:
 
 - <a href="https://drive.google.com/file/d/1JqxdjuCUNUpH2Nv18Vlx5Z1RTJogSi69/view?usp=sharing">models/</a>: This directory contains the trained Generative AI models used by <a href="https://www.zemenu.org/">Zemenu's</a> team for the **Text-to-speech**. The model is implemented using Python-based AI/ML libraries such as `hifigan` to make the out from the model High Fidelity, and play a crucial roll by synthesizing the audio output.
 
+<img src="images/">
+<img src="images/">
+<img src="images/">
+
 ## Purpose
 
 This **Text-to-speech** platform is designed for use cases such as generating an audio book from an amharic text book or making automated voice response for certain business by automizing repetative customer support services or for text to speech service for any peronal resons inluding entertaiment purposes.
