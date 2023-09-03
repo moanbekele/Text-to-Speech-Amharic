@@ -1,0 +1,8 @@
+venv/
+main/SAVE_out/Amharic_last
+main/SAVE_out/Hifigan
+main/Send.wav
+main/tacotron2/
+main/__pycache__/*
+main/text/__pycache__/*
+main/hifi-gan/

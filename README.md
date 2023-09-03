@@ -24,3 +24,12 @@ The purpose of this repository is to provide a collaborative space for developme
 ATRONS leverages Generative AI models to enhance the platform's functionality, particularly in the domain of visual question answering (VQA). The chosen Generative AI models, such as the `dandelin/vilt-b32-finetuned-vqa` model, have been fine-tuned to process and interpret images containing questions from users. These models utilize cutting-edge techniques in computer vision and natural language processing to generate accurate and meaningful responses to user queries.
 
 By incorporating Generative AI models into ATRONS, we enable users to ask questions about visual content, such as diagrams, images, or screenshots, and receive relevant answers. This significantly enhances the learning experience, as users can obtain detailed explanations, insights, or clarifications about the resources they are interacting with. It opens up new possibilities for interactive and dynamic learning, making ATRONS a powerful platform for knowledge sharing and acquisition.
+
+
+## Installation
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python3 app.py
+```
