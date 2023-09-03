@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-    <title>Text-to-Speech</title>
-    <link rel="stylesheet" href="../static/style.css">
+  <meta charset="UTF-8">
+  <title>Zemenu text-to-Speech</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="../static/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<style>
+  .center {
+    position: relative;
+    /* border: 5px solid; */
+    margin: auto;
+    margin-top: 20%;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    font: revert;
+}
+</style>
 </head>
 <body>
+<!-- partial:index.partial.html -->
+<div id='container'></div>
+<div class='center'>
+  <h1 class="h1_m">Amharic Text to Speech</h1>
+  
     <form id="tts-form" action="/tts" method="POST">
-        <label for="text">Enter text:</label><br>
-        <textarea id="text" name="text" rows="4" cols="50"></textarea><br>
-        <button type="submit">Convert to Speech</button>
-    </form>
-    
-    
+      <textarea id="text" name="text" rows="4" cols="50" placeholder="Enter your text here"></textarea><br>
+      <button type="submit">Convert to Speech</button>
+  </form>
+  
+</div>
+<!-- partial -->
+  <script src='https://gist.github.com/mrdoob/838785/raw/a19a753b441d6ad41707c58f06dbe17f3470423c/RequestAnimationFrame.js'></script>
+<script src='https://raw.github.com/mrdoob/stats.js/master/build/stats.min.js'></script>
+<script  src="../static/script.js"></script>
+
 </body>
 </html>

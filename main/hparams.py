@@ -38,7 +38,7 @@ def create_hparams(hparams_string=None, verbose=False):
         hop_length=256,
         win_length=1024,
         n_mel_channels=80,
-        mel_fmin=100.0,
+        mel_fmin=0.0,
         mel_fmax=8000.0,
 
         ################################
