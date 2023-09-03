@@ -1,7 +1,6 @@
-import json
 from flask import Flask, render_template, request, jsonify, send_file
-import requests
 import os
+from main import synthesize
 
 app = Flask(__name__)
 
@@ -14,10 +13,10 @@ def tts():
     if request.method == 'POST':
         text = request.form.get('text')
         print(text)
-        
+        audio_name = synthesize.text2speech(text)
         try:
             
-            audio_url = f'http://127.0.0.1:5000/source/voice.wav'
+            audio_url = f'http://127.0.0.1:5000/{audio_name}'
                 
             return render_template('post.html', audio_url=audio_url)
         except:
