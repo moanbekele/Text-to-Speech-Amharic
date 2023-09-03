@@ -32,7 +32,7 @@ This **Text-to-speech** platform is designed for use cases such as generating an
 
 ## How Generative AI Models are Solving the Problem
 
- <a href="https://www.zemenu.org/">Zemenu's</a>  **Amharic | Text-to-speech** service leverages Generative AI model to create high quality text to speech in amharic for various use cases as listed in the purpose section above.The chosen Generative AI models, such as the <a href="https://drive.google.com/file/d/1JqxdjuCUNUpH2Nv18Vlx5Z1RTJogSi69/view?usp=sharing">Amharic_Text_to_speech_model</a>, have been fine-tuned to synthesize audio by receiving input from user. These models utilize cutting-edge techniques to make the audio output High Fidelity by using a `hifigan` model for the training and it took us 30 hour of training.
+ <a href="https://www.zemenu.org/">Zemenu's</a>  **Amharic | Text-to-speech** service leverages Generative AI model to create high quality text to speech in amharic for various use cases as listed in the purpose section above.The chosen Generative AI models, such as the <a href="https://drive.google.com/file/d/1JqxdjuCUNUpH2Nv18Vlx5Z1RTJogSi69/view?usp=sharing">Amharic_Text_to_speech_model</a>, have been fine-tuned to synthesize audio by receiving input from user. These models utilize cutting-edge techniques to make the audio output High Fidelity by using a `hifigan` model and it took us 30 hour of training.
 
 
 
