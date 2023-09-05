@@ -11,34 +11,26 @@ body {
 h3{
     text-shadow:1px 1px 1px #fff;
 }
-.Containerss{
-    background-color: aliceblue;
-    border-radius: 19px;
-    height: 710px;
-    width: 90%;
-    margin-left: 73px;
-    transform: translateY(189px);
-    position: absolute;
-}
 /* Start  styling the page */
 .container-audio {
-
-    height: 13em;
-    width: 101em;
+    width: 66%;
+    height: auto;
     padding: 20px;
     border-radius: 5px;
-    background-color: #2f08080d;
+    background-color: #eee;
     color: #444;
     margin: 20px auto;
     overflow: hidden;
 }
-
+audio {
+  width:100%;
+}
 audio:nth-child(2), audio:nth-child(4), audio:nth-child(6) {
     margin: 0;
 }
 .container-audio .colum1 {
     width: 23px;
-    height: 9em;
+    height: 5em;
     border-radius: 5px;
     margin: 0 10px 0 0;
     display: inline-block;
