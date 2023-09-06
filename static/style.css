@@ -37,14 +37,13 @@
 
 .center {
   bottom: 20%;
-  position: relative;
-  
-  margin: auto;
-  margin-top: 76px;
-  width: 50%;
-  padding: 10px;
-  color: white;
-  font: revert;
+    position: relative;
+    margin: auto;
+    margin-top: 270px;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    font: revert;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgb(255, 255, 255);
